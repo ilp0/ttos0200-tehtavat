@@ -7,5 +7,6 @@ public class harj6 {
     int distance = int.Parse(Console.ReadLine());
 
     System.Console.WriteLine("Gasoline usage was " + ((distance / 100) * perKM) + "L price of trip was " + (((distance / 100) * perKM) * price) + "€");
+    Console.ReadKey();
  }
 }

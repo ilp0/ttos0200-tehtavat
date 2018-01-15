@@ -18,5 +18,6 @@ public class harj6 {
     }else {
         System.Console.WriteLine("it is not leap year");
     }
+    Console.ReadKey();
  }
 }

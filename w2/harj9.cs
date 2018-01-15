@@ -16,5 +16,7 @@ public class harj8 {
         num += temp;
      }
     Console.WriteLine("sum: " + num);
+    Console.ReadKey();
+
  }
 }

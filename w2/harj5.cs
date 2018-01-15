@@ -8,5 +8,6 @@ public class harj5 {
      int minutes = (input % 3600) / 60;;
      int seconds = (input % 60);
     System.Console.WriteLine(input + " seconds is equal to " + hours + " hours " + minutes + " minutes " + seconds +" seconds");
+    Console.ReadKey();
  }
 }

@@ -9,5 +9,6 @@ public class harj8 {
        num[i] = int.Parse(Console.ReadLine());  
      }
     Console.WriteLine("biggest number is " + num.Max());
+    Console.ReadKey();
  }
 }

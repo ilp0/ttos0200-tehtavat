@@ -8,5 +8,6 @@ public class harj8 {
          System.Console.WriteLine(ar[i]);
          if(ar[i] % 2 == 0)System.Console.WriteLine("HEP");
      }
+     Console.ReadKey();
  }
 }

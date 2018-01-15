@@ -10,5 +10,6 @@ public class harj3 {
     } 
     Console.WriteLine("SUM:" + (numb[0] + numb[1] + numb[2]).ToString());
     Console.WriteLine("AVERAGE:" + ((numb[0] + numb[1] + numb[2]) / 3).ToString());
+    Console.ReadKey();
  }
 }
