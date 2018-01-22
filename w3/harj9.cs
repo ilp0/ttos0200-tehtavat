@@ -8,8 +8,6 @@ public class harj8 {
         Random rnd = new Random();
         int gen = rnd.Next(0, wordbank.Length - 1); 
         string answer = wordbank[gen];
-
-
         bool win = false;
         int lives = 5;
         List<char> rightChars = new List<char>();
@@ -17,10 +15,10 @@ public class harj8 {
         answerList.AddRange(answer);
         int lettersLeft = answer.Length;
         System.Console.WriteLine("Hirsipuu. arvaa kirjaimia. viidennestä väärästä kirjaimesta joudut hirteen.");
-        
         while (!win && lives != 0) {
             lettersLeft = answer.Length;
             char guess = Console.ReadKey().KeyChar;
+            Console.Clear();
             System.Console.WriteLine();
             if(answerList.Contains(guess)){
                 System.Console.WriteLine("you guessed a right char!");
@@ -42,11 +40,10 @@ public class harj8 {
             System.Console.WriteLine("Lives left: " + lives);
             System.Console.WriteLine("-------------------------------------\n");
         }
-        
-    if (win){
-       System.Console.WriteLine("YOU WIN!"); 
-    }    else {
-        System.Console.WriteLine("YOU LOSE!");
-    }
+        if (win){
+            System.Console.WriteLine("YOU WIN!"); 
+        } else {
+            System.Console.WriteLine("YOU LOSE!");
+        }
     }
 }
