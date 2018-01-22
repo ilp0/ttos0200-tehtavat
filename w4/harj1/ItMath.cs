@@ -1,9 +1,9 @@
 using System;
 namespace ns{
     class ItMath{
-        public bool OnkoLuku(string syote){
-            int luku;
-            if (int.TryParse(syote, out luku)) return true;
+        public static bool OnkoLuku(string syote){
+            double luku;
+            if (double.TryParse(syote, out luku)) return true;
             else {
                 return false;
             }
