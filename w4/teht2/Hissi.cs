@@ -1,4 +1,4 @@
-using System;
+1using System;
 
 namespace ns {
     class Hissi{

@@ -27,8 +27,10 @@ namespace ns {
          static void isDate(){
             ItMath ItMath = new ItMath();
             while(true){
+                System.Console.WriteLine("Please input a date: ");
                  string input = Console.ReadLine();
                  System.Console.WriteLine("input is a date: " + ItMath.OnkoPvm(input));
+                 input = "";
              }
         }
     }
