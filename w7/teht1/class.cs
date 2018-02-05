@@ -33,21 +33,23 @@ using System.Linq;
 using System.Collections.Generic;
 namespace ns{
     public class Car {
+        public Car(string i_name, string i_model){
+            System.Console.WriteLine("Created a new Vechile " + i_name + " " + i_model);
+            name = i_name;
+            model = i_model;
+        }
         public string name {get; set;}
         public string model {get;set;}
+
         public List<Tyre> tyres = new List<Tyre>();
         public void AddTyres (string a, int b, string c){
             for (int i = 0; i < 4; i++) {
                  tyres.Add(new Tyre() { type = a, size = b, brand = c });
-                 /* 
-                tyres[i].type = a;
-                tyres[i].size = b;
-                tyres[i].brand = c;
-                */
+                 System.Console.WriteLine("Added new tyre Type: " + tyres[i].type + " Size: " + tyres[i].size + " Brand: " + tyres[i].brand);
             }
         }
-        
     }
+    
     public class Tyre {
         public string type {get; set;}
         public int size {get;set;}
