@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 namespace ns{
     class prog {
+
         static void Main (string[] args){
             Employee kirsi = new Employee();
             kirsi.name = "Kirsi Kernel";

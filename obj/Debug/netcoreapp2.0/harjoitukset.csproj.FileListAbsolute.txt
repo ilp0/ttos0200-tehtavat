@@ -1,0 +1,3 @@
+/home/li/Documents/koulut/jamk/olio-ohjelmointi/harjoitukset/obj/Debug/netcoreapp2.0/harjoitukset.csproj.CoreCompileInputs.cache
+/home/li/Documents/koulut/jamk/olio-ohjelmointi/harjoitukset/obj/Debug/netcoreapp2.0/harjoitukset.AssemblyInfoInputs.cache
+/home/li/Documents/koulut/jamk/olio-ohjelmointi/harjoitukset/obj/Debug/netcoreapp2.0/harjoitukset.AssemblyInfo.cs
