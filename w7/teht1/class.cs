@@ -38,10 +38,10 @@ namespace ns{
             name = i_name;
             model = i_model;
         }
-        public string name {get; set;}
+        public string name {get; se;}
         public string model {get;set;}
 
-        public List<Tyre> tyres = new List<Tyre>();
+        public List<Tyre> tyres = new Litst<Tyre>();
         public void AddTyres (string a, int b, string c){
             for (int i = 0; i < 4; i++) {
                  tyres.Add(new Tyre() { type = a, size = b, brand = c });
