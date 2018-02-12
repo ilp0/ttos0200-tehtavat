@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-
-public class harj8 {
+namespace ns3_9 {
+public class harj9 {
     public static void Main(string[] args){
         string[] wordbank = new string[] {"suomalainen", "hetki", "oikea", "kuulla", "tarkoittaa", "ainakin", "kaupunki", "valtio", "pyrkiä" };
         Random rnd = new Random();
@@ -46,4 +46,4 @@ public class harj8 {
             System.Console.WriteLine("YOU LOSE!");
         }
     }
-}
+}}

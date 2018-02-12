@@ -1,5 +1,5 @@
 using System;
-
+namespace ns3_6 {
 public class harj6 {
 public static void Main(string[] args){
         Random rnd = new Random();
@@ -14,4 +14,5 @@ public static void Main(string[] args){
         System.Console.WriteLine("congrats!");
         Console.ReadKey();
     }
+}
 }

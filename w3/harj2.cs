@@ -1,6 +1,6 @@
 using System;
-
-public class harj3 {
+namespace ns3_2 {
+public class harj2 {
  public static void Main(string[] args) {
      int MAX = 10;
      int[] numbers = new int[MAX];

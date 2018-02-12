@@ -20,7 +20,7 @@ Esimerkkitoiminta:
 
 using System;
 
-namespace ns {
+namespace ns4_3 {
     class Control{
         static void Main (string[] args){
             Amp h = new Amp();

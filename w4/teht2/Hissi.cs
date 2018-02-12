@@ -1,6 +1,6 @@
-1using System;
+using System;
 
-namespace ns {
+namespace ns4_2 {
     class Hissi{
         private int _Floor = 1;
         public int Floor{

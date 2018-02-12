@@ -31,17 +31,17 @@ Esimerkkitoiminta:
 using System;
 using System.Linq;
 using System.Collections.Generic;
-namespace ns{
+namespace ns7_1{
     public class Car {
         public Car(string i_name, string i_model){
             System.Console.WriteLine("Created a new Vechile " + i_name + " " + i_model);
             name = i_name;
             model = i_model;
         }
-        public string name {get; se;}
+        public string name {get; set;}
         public string model {get;set;}
 
-        public List<Tyre> tyres = new Litst<Tyre>();
+        public List<Tyre> tyres = new List<Tyre>();
         public void AddTyres (string a, int b, string c){
             for (int i = 0; i < 4; i++) {
                  tyres.Add(new Tyre() { type = a, size = b, brand = c });

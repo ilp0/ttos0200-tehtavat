@@ -1,6 +1,6 @@
 using System;
-
-public class harj3 {
+namespace ns3_1 {
+public class harj1 {
  public static void Main(string[] args) {
      
      System.Console.WriteLine("Input a number: ");

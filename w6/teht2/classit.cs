@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-namespace ns{
+namespace ns6_2{
     class Vehicle {
         public string name {get; set;}
         public string model {get; set;}

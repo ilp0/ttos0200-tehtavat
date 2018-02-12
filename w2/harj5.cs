@@ -1,5 +1,5 @@
 using System;
-
+namespace ns2_5 {
 public class harj5 {
  public static void Main(string[] args) {
      System.Console.WriteLine("give seconds>");
@@ -10,4 +10,5 @@ public class harj5 {
     System.Console.WriteLine(input + " seconds is equal to " + hours + " hours " + minutes + " minutes " + seconds +" seconds");
     Console.ReadKey();
  }
+}
 }

@@ -1,5 +1,5 @@
 using System;
-namespace ns {
+namespace ns_5 {
     class TestiPeti{
         static void Main (string[] args){
 

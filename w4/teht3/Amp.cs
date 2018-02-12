@@ -1,6 +1,6 @@
 using System;
 
-namespace ns {
+namespace ns4_3 { 
     class Amp{
         private int _Volume = 0;
         public int Volume{

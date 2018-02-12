@@ -1,5 +1,5 @@
 using System;
-
+namespace ns3_5 {
 public class harj5 {
 
 public static void Main(string[] args){
@@ -22,4 +22,4 @@ public static void Main(string[] args){
      System.Console.WriteLine("*");
      }
  }
-}
+}}

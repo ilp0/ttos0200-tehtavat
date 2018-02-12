@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-namespace ns{
+namespace ns6_2{
     class prog {
         static void Main (string[] args){
             Bike b1 = new Bike();

@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-
+namespace ns3_7 {
 public class harj7 {
     public static void Main(string[] args){
         int[] arr = new int[] {10,20,30,40,50};
@@ -23,4 +23,4 @@ public class harj7 {
             System.Console.Write(i.ToString() + ",");
         }
     }
-}
+}}

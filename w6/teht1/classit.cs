@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-namespace ns{
+namespace ns6_1{
     class Employee {
        public string name {get; set;}
        public string profession {get; set;}

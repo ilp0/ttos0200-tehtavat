@@ -9,7 +9,7 @@ Esimerkkitoiminta:
     Give a new floor number (1-5) > 2 */
 using System;
 
-namespace ns {
+namespace ns4_2 { 
     class Control{
         static void Main (string[] args){
             Hissi h = new Hissi();

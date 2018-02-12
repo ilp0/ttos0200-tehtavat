@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
-
-public class harj3 {
+namespace ns3_4 {
+public class harj4 {
  public static void Main(string[] args) {
         System.Console.WriteLine("give # of students: ");
         int MAX = int.Parse(Console.ReadLine());
@@ -40,4 +40,4 @@ public class harj3 {
         System.Console.WriteLine("");
         }
     }
-}
+}}

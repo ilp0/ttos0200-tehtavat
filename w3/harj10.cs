@@ -1,5 +1,5 @@
 ﻿﻿using System;
-
+namespace ns3_10 {
     class harj10
     {
         static void Main(string[] args)
@@ -12,3 +12,4 @@
             }
         }
     }
+}

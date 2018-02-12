@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
-namespace ns{
+namespace ns6_4{
     class item {
         public string name {get;set;}
     }
-    class levyke : tavara {
+    class levyke : item {
         public string kunto {get;set;}
     }
     class CD : levyke {

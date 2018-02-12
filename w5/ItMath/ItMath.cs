@@ -1,5 +1,5 @@
 using System;
-namespace ns{
+namespace ns_5{
     class ItMath{
         public static bool OnkoLuku(string syote){
             double luku;

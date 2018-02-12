@@ -1,5 +1,5 @@
 using System;
-
+namespace ns2_4 {
 public class harj4 {
  public static void Main(string[] args) {
      Console.Write("Input age>");
@@ -9,4 +9,5 @@ public class harj4 {
      if (age > 65) Console.WriteLine("you are a seinor boy");
      Console.ReadKey();
  }
+}
 }

@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-
+namespace ns3_8 {
 public class harj8 {
     public static void Main(string[] args){
         System.Console.WriteLine("Please input a string: ");
@@ -14,4 +14,4 @@ public class harj8 {
             System.Console.WriteLine("it is not palindrome");
         }
     }
-}
+}}

@@ -669,11 +669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/li/Documents/koulut/jamk/olio-ohjelmointi/harjoitukset/harjoitukset.csproj",
+      "projectUniqueName": "/home/li/Documents/projektit/ttos0200-tehtavat/harjoitukset.csproj",
       "projectName": "harjoitukset",
-      "projectPath": "/home/li/Documents/koulut/jamk/olio-ohjelmointi/harjoitukset/harjoitukset.csproj",
+      "projectPath": "/home/li/Documents/projektit/ttos0200-tehtavat/harjoitukset.csproj",
       "packagesPath": "/home/li/.nuget/packages/",
-      "outputPath": "/home/li/Documents/koulut/jamk/olio-ohjelmointi/harjoitukset/obj/",
+      "outputPath": "/home/li/Documents/projektit/ttos0200-tehtavat/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/li/.nuget/NuGet/NuGet.Config"

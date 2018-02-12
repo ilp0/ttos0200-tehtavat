@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
-
-public class harj8 {
+namespace ns2_9 {
+public class harj9 {
  public static void Main(string[] args) {
       int temp = 10, num = 0;
       System.Console.WriteLine("input numbers, to stop: input 0");
@@ -19,4 +19,5 @@ public class harj8 {
     Console.ReadKey();
 
  }
+}
 }

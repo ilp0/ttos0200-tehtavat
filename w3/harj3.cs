@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-
+namespace ns3_3 {
 public class harj3 {
  public static void Main(string[] args) {
      int MAX = 5;
@@ -14,4 +14,4 @@ public class harj3 {
     System.Console.WriteLine("Your score was " + (scores.Sum() - scores.Max() - scores.Min()).ToString());
     Console.ReadKey();
  }
-}
+}}
