@@ -8,7 +8,7 @@ namespace ns9_1{
          static void Main (string[] args){
              List<Opiskelija> opiskelijat = new List<Opiskelija>();
              opiskelijat.Add(new Opiskelija());
-             opiskelijat[0].AddInfo("Masa", "Niemi", )
+             opiskelijat[0].AddInfo("Masa", "Niemi","L4539","TTV17S4");
          }
     }
 }
