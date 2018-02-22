@@ -664,23 +664,19 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {},
-    "/opt/dotnet/sdk/NuGetFallbackFolder": {}
+    "/home/li/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/li/Documents/koulut/jamk/olio-ohjelmointi/harjoitukset/harjoitukset.csproj",
+      "projectUniqueName": "/home/li/Documents/projektit/ttos0200-tehtavat/harjoitukset.csproj",
       "projectName": "harjoitukset",
-      "projectPath": "/home/li/Documents/koulut/jamk/olio-ohjelmointi/harjoitukset/harjoitukset.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/li/Documents/koulut/jamk/olio-ohjelmointi/harjoitukset/obj/",
+      "projectPath": "/home/li/Documents/projektit/ttos0200-tehtavat/harjoitukset.csproj",
+      "packagesPath": "/home/li/.nuget/packages/",
+      "outputPath": "/home/li/Documents/projektit/ttos0200-tehtavat/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/opt/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/li/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
